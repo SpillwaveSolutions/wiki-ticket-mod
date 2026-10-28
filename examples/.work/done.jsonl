@@ -1,0 +1,2 @@
+{"ev":"01HQWKEVAA0000000000000012","op":"create","item":"01HQWKKTAA000000000000DNE1","set":{"title":"Regenerate the live design docs for v0.24.10","status":"todo","level":"task","kind":"ops","parent":"01HQWKKTAA000000000000EPC1","milestone":"v0.24.10","external":{"system":"github","key":"431","url":"https://github.com/SpillwaveSolutions/wiki_ticket_sdd/issues/431"}}}
+{"ev":"01HQWKEVAA0000000000000013","op":"close","item":"01HQWKKTAA000000000000DNE1","set":{"status":"done","resolution":"shipped"}}

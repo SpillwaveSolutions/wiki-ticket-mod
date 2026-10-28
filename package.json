@@ -1,0 +1,8 @@
+{
+  "name": "wiki-ticket-mod",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test hooks/model.test.ts"
+  }
+}

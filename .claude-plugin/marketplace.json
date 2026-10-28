@@ -1,0 +1,6 @@
+{
+  "name": "wiki-ticket-mod",
+  "owner": { "name": "Rick Hightower" },
+  "description": "A pane that reads a wiki_ticket_sdd work log and opens GitHub or Jira from the issue id. Parent ids walk the hierarchy.",
+  "plugins": [{ "name": "wiki-ticket-mod", "source": "./" }]
+}

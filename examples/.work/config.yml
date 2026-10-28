@@ -1,0 +1,12 @@
+# Sample ticketing block. Point /wiki-tick at this directory to try the pane
+# without a work log of your own: /wiki-tick examples/.work
+version: 1
+
+project:
+  key: WIKI
+  name: Wiki tick sample
+
+ticketing:
+  system: github
+  project: SpillwaveSolutions/wiki_ticket_sdd
+  site: https://jira.atlassian.net

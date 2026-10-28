@@ -1,0 +1,32 @@
+{
+  "name": "wiki-ticket-mod",
+  "version": "0.1.0",
+  "description": "A /wiki-tick pane for wiki_ticket_sdd: the work tree, whether each item is linked to GitHub or Jira, and a parent you can open.",
+  "author": {
+    "name": "Rick Hightower"
+  },
+  "license": "MIT",
+  "keywords": [
+    "wiki-ticket",
+    "worklog",
+    "jira",
+    "github-issues",
+    "pane"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "work_dir": {
+      "type": "string",
+      "title": "Work directory",
+      "description": "Directory that holds todo.jsonl, done.jsonl, archive.jsonl, and config.yml.",
+      "default": ".work"
+    },
+    "jira_site": {
+      "type": "string",
+      "title": "Jira site",
+      "description": "Origin used when a Jira key has no external.url, for example https://yourorg.atlassian.net. Overrides ticketing.site in config.yml.",
+      "default": ""
+    }
+  },
+  "repository": "https://github.com/SpillwaveSolutions/wiki-ticket-mod"
+}
